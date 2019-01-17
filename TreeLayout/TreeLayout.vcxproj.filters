@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\Tree">
+      <UniqueIdentifier>{3f219438-3e99-4699-a600-42290f8ba8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tree\TreeLayout">
+      <UniqueIdentifier>{cff682d6-b2ae-4536-9d58-157ec937dbeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNodeItem.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkItem.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="CTreeLayout.cpp">
+      <Filter>Source Files\Tree\TreeLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="CTreeLayoutNode.cpp">
+      <Filter>Source Files\Tree\TreeLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="CTreeView.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="CMainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="CMainwindow.ui">
+      <Filter>Source Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CMainwindow.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CTreeView.h">
+      <Filter>Source Files\Tree</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CNodeItem.h">
+      <Filter>Source Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkItem.h">
+      <Filter>Source Files\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="CTreeLayout.h">
+      <Filter>Source Files\Tree\TreeLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="CTreeLayoutNode.h">
+      <Filter>Source Files\Tree\TreeLayout</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
